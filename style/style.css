@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+.infoTable{
+    max-width: 50%;
+}
+
+tr{
+    max-height: 10%;
+}
+
+td {
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.changeForm{
+    display: none;
+}
+
+.main{
+    display: flex;
+}
+
+
